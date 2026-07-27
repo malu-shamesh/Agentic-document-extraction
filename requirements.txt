@@ -3,8 +3,10 @@ pytesseract>=0.3.10
 paddleocr>=2.9.0
 
 # Agent framework
-langchain>=0.2.0
-langchain-openai>=0.1.0
+# Pinned below 1.0: langchain 1.x removed AgentExecutor/create_tool_calling_agent
+# from the top-level langchain.agents import path used throughout this codebase.
+langchain>=0.2.0,<1.0
+langchain-openai>=0.1.0,<1.0
 python-dotenv>=1.0.0
 
 # Image handling
