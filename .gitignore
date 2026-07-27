@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated artifacts
+outputs/*
+!outputs/.gitkeep
+
+# PaddleOCR model cache
+.paddlex/
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Jupyter (legacy notebooks removed; ignore any stray checkpoints)
+.ipynb_checkpoints/
